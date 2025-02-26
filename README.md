@@ -24,17 +24,6 @@ Language: Java
 
 Concepts Used: OOP, Exception Handling, String Formatting, Arrays
 
-📂 Project Structure
-
-RestaurantBillingSystem/
-│── src/
-│   ├── BillGenerator.java
-│   ├── Items.java
-│   ├── Customer.java
-│── README.md
-│── .gitignore
-│── LICENSE
-
 🔧 Setup & Installation
 
 Clone the repository:
@@ -64,25 +53,6 @@ The bill is generated with proper alignment and tax calculations.
 Customers are prompted to rate their experience and provide feedback.
 
 The application handles invalid inputs gracefully.
-
-🏆 Example Output
-
-╔════════════════════════════════════════════════╗
-║               ** Bite & Beyond **              ║
-╠════════════════════════════════════════════════╣
-║ Customer Name : John Doe                       ║
-║ Table No      : 5                              ║
-║ Waiter        : Rahul                          ║
-╠════════════════════════════════════════════════╣
-║ Item           │ Qty │ Rate  │ Total           ║
-║ Burger         │  2  │ ₹50.00 │ ₹100.00        ║
-║ Coke           │  1  │ ₹30.00 │ ₹30.00         ║
-╠════════════════════════════════════════════════╣
-║ Subtotal       : ₹130.00                       ║
-║ SGST (2.5%)    : ₹3.25                         ║
-║ CGST (2.5%)    : ₹3.25                         ║
-║ Total Amount   : ₹136.50                       ║
-╚════════════════════════════════════════════════╝
 
 🤝 Contributing
 
