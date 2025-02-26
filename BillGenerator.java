@@ -44,8 +44,8 @@ public class BillGenerator {
         System.out.printf("║ %-36s : %-26d║\n", "Total Items", totalItems);
         System.out.printf("║ %-36s : ₹%-25.2f║\n", "Subtotal", subtotal);
         
-        double sgst = subtotal * 0.025; // SGST 2.5%
-        double cgst = subtotal * 0.025; // CGST 2.5%
+        double sgst = subtotal * 0.025; 
+        double cgst = subtotal * 0.025; 
         double totalTax = sgst + cgst;
 
         System.out.printf("║ %-36s : ₹%-25.2f║\n", "SGST (2.5%)", sgst);
@@ -55,7 +55,7 @@ public class BillGenerator {
 
         collectFeedback();
         
-        System.out.println("║ Thank You! Visit Again! 😊                                	   ║");
+        System.out.println("║ Thank You! Visit Again!                              	   ║");
         System.out.println("╚══════════════════════════════════════════════════════════════════╝");
     }
 
